@@ -1,5 +1,5 @@
 <div class="pokemon-card">
-  <ng-container *ngIf="pokemon" >
+  <ng-container *ngIf="pokemon">
     <!--h3> This pokemon's name </h3-->
     <!-- This image should show the default front view of this pokemon  -->
     <!--img loading="lazy" class="pokemon-sprite" /-->
@@ -22,7 +22,7 @@
       </details>
     </section>
   </ng-container>
-  <ng-container>
+  <ng-container *ngIf="error">
     <!--h3 class="pokemon-error"> Error text when our search went wrong. </h3-->
   </ng-container>
 </div>

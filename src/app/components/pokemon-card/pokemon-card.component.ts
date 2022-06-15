@@ -7,9 +7,9 @@ import { IPokemon } from '../../interfaces/IPokemon';
   styleUrls: ['./pokemon-card.component.css'],
 })
 export class PokemonCardComponent implements OnInit {
-  @Input() pokemon: IPokemon;
-  @Input() error: string;
-  
+  pokemon: IPokemon;
+  error: string;
+
   constructor() {}
 
   ngOnInit() {}
