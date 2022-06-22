@@ -1,10 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, Validators } from '@angular/forms';
-import { map } from 'rxjs/operators';
-
-import { IPokemon } from '../../interfaces/IPokemon';
-import { PokedexService } from '../../services/pokedex.service';
-import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'pokedex',
