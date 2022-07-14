@@ -8,7 +8,7 @@ export class PokedexService {
   constructor(private http: HttpClient) {}
 
   getPokemon(query: string): Observable<IPokemon> {
-    // query can be a pokemon name like 'pikachu' or a number from 1 to 800.
+    // query can be a pokemon name like 'pikachu' or a number from 1 to 898.
     return this.http.get<IPokemon>(
       `https://pokeapi.co/api/v2/pokemon/${query}`
     );
